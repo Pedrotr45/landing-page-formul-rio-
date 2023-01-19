@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+html,body {
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("imagem/empresa.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*cabeçalho*/
+
+header.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1380px;
+    height: 55px ;
+    align-items: center;
+    padding: 0 5%;
+    background-color: brown;
+    -webkit-box-shadow: 10px 3px 25px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 3px 25px 13px rgba(0,0,0,0.75);
+    box-shadow: 10px 3px 25px 13px rgba(0,0,0,0.75);
+
+}
+
+.logo h3 {
+    color:#fff ;
+    font-size: 22px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato i {
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    padding: 3px 0;
+    letter-spacing: 2px;
+    
+}
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+
+
+.text-banner h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 57px;
+ 
+}
+
+.text-banner p {
+    margin-top: 24px;
+    font-size: 20px;
+    color: #ccc;
+    line-height: 20px;
+}
+
+.formulario {
+    background: brown;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+
+.formulario h3 {
+    color: #fff;
+    font-size: 20px;
+    
+   
+
+}
+
+.formulario input[type=text] {
+    width: 300px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.formulario input[type=text]:focus {
+    outline: 0;
+}
+
+.formulario input[type=submit] {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+    opacity: 0.9;
+}
+
+.formulario input[type=submit]:hover {
+    opacity: 1;
+}
+
+
+.formulario p {
+    color:#ccc;
+    margin-top: 32px;
+    font-size: 17px;
+    font-weight: normal;
+    border-top: 1px solid #ccc;
+}
+
+
+
+
